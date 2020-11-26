@@ -1,8 +1,12 @@
-juypter:
+jupyter:
 	@cd notebooks; PYTHONPATH=".." jupyter notebook api.ipynb
 
 setup:
 	python3 -m venv ~/.pia-aws
+
+setup2:
+	python3 -m venv ~/.uda-dev
+	source ~/.uda-dev/bin/activate
 
 env:
 	#Show information about environment
